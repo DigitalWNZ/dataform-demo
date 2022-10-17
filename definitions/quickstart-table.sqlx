@@ -7,3 +7,5 @@ SELECT
   SUM(count) as count
 FROM ${ref("quickstart-source")}
 GROUP BY 1
+
+# for test purpose
